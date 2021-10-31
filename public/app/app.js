@@ -142,7 +142,7 @@ $(document).ready(function () {
     initFirebase();
     initlistener();
   } catch {
-    console.error(e);
+    // console.error(e);
   }
 
   pagelistener();
