@@ -33,13 +33,13 @@ function route() {
 //function that takes you to the page based on the pageID
 function navToPage(pageName) {
   MODEL.getPageContent(pageName);
-  console.log("nav to page");
+  // console.log("nav to page");
 }
 
 function pagelistener() {
   $(window).on("hashchange", route);
   route();
-  console.log("pagelistener");
+  // console.log("pagelistener");
 }
 
 function initFirebase() {
